@@ -158,3 +158,6 @@
 /Users/js/RiderProjects/RapidPack/RapidPack.Tests/obj/Debug/net10.0/RapidPack.Tests.pdb
 /Users/js/RiderProjects/RapidPack/RapidPack.Tests/obj/Debug/net10.0/RapidPack.Tests.genruntimeconfig.cache
 /Users/js/RiderProjects/RapidPack/RapidPack.Tests/obj/Debug/net10.0/ref/RapidPack.Tests.dll
+C:\Users\barti\RiderProjects\desktop-rapidpack-Nowakowski-Balcerak\RapidPack.Tests\obj\Debug\net10.0\RapidPack.Tests.dll
+C:\Users\barti\RiderProjects\desktop-rapidpack-Nowakowski-Balcerak\RapidPack.Tests\obj\Debug\net10.0\refint\RapidPack.Tests.dll
+C:\Users\barti\RiderProjects\desktop-rapidpack-Nowakowski-Balcerak\RapidPack.Tests\obj\Debug\net10.0\RapidPack.Tests.pdb

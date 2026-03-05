@@ -18,4 +18,8 @@
             <PrivateAssets Condition="'$(Configuration)' != 'Debug'">All</PrivateAssets>
         </PackageReference>
     </ItemGroup>
+
+    <ItemGroup>
+      <Compile Include="obj\ParcelCalculator.cs" />
+    </ItemGroup>
 </Project>

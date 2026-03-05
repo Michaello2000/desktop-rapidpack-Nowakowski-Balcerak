@@ -1,5 +1,6 @@
 using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
+using Avalonia.Interactivity;
 using Avalonia.Markup.Xaml;
 
 namespace RapidPack;
@@ -10,6 +11,7 @@ public partial class App : Application
     {
         AvaloniaXamlLoader.Load(this);
     }
+     
 
     public override void OnFrameworkInitializationCompleted()
     {
