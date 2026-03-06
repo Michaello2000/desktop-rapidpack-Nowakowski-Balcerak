@@ -39,7 +39,7 @@
             <ComboBoxItem Content="Ostrożnie (szkło)"/>
             <ComboBoxItem Content="Paleta"/>
         </ComboBox>
-    
+
         <CheckBox x:Name="ExpressCheckBox"
                   Content="Ekspres (+15 zł)"
                   Margin="0,4,0,4"/>

@@ -19,7 +19,4 @@
         </PackageReference>
     </ItemGroup>
 
-    <ItemGroup>
-      <Compile Include="obj\ParcelCalculator.cs" />
-    </ItemGroup>
 </Project>
