@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RapidPack.testy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e9d0de2bfcb612e0beecc46c4616edb30ba4166")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0864fccd4ed782e2d5929f4928e4c4a6cd924a07")]
 [assembly: System.Reflection.AssemblyProductAttribute("RapidPack.testy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RapidPack.testy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
