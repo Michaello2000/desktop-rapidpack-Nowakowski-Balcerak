@@ -1,9 +1,63 @@
-<Window xmlns="https://github.com/avaloniaui"
+<controls:Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        xmlns:controls="clr-namespace:Avalonia.Controls;assembly=Avalonia.Controls"
         x:Class="RapidPack.MainWindow"
-        Title="RapidPack">
-    Welcome to Avalonia!
-</Window>
+        Title="RapidPack – Wycena Przesyłek"
+        Width="480" Height="620"
+        WindowStartupLocation="CenterScreen">
+
+    <StackPanel Margin="20" Spacing="8">
+
+        <TextBlock Text="RapidPack – Wycena Przesyłki"
+                   FontSize="20" FontWeight="Bold"
+                   HorizontalAlignment="Center"
+                   Margin="0,0,0,12"/>
+
+        <TextBlock Text="Wymiary paczki (cm):" FontWeight="Bold"/>
+
+        <StackPanel Orientation="Horizontal" Spacing="10">
+            <StackPanel>
+                <TextBlock Text="Wysokość:"/>
+                <TextBox x:Name="HeightTextBox" Width="120"/>
+            </StackPanel>
+            <StackPanel>
+                <TextBlock Text="Szerokość:"/>
+                <TextBox x:Name="WidthTextBox" Width="120"/>
+            </StackPanel>
+            <StackPanel>
+                <TextBlock Text="Głębokość:"/>
+                <TextBox x:Name="DepthTextBox" Width="120"/>
+            </StackPanel>
+        </StackPanel>
+
+        <TextBlock Text="Waga (kg):" FontWeight="Bold"/>
+        <TextBox x:Name="WeightTextBox" Width="120" HorizontalAlignment="Left"/>
+
+        <TextBlock Text="Typ przesyłki:" FontWeight="Bold"/>
+        <ComboBox x:Name="ShipmentTypeComboBox" Width="220"
+                  HorizontalAlignment="Left" SelectedIndex="0">
+            <ComboBoxItem Content="Standardowa"/>
+            <ComboBoxItem Content="Ostrożnie (szkło)"/>
+            <ComboBoxItem Content="Paleta"/>
+        </ComboBox>
+
+        <CheckBox x:Name="ExpressCheckBox"
+                  Content="Ekspres (+15 zł)"
+                  Margin="0,4,0,4"/>
+
+        <Button x:Name="QuoteButton"
+                Content="Wyceń"
+                FontSize="16"
+                HorizontalAlignment="Stretch"
+                HorizontalContentAlignment="Center"
+                Padding="0,10"
+                Click="QuoteButton_Click"
+                Margin="0,8,0,0"/>
+
+        <TextBlock x:Name="OutputTextBlock"
+                   TextWrapping="Wrap"
+                   FontSize="14"
+                   Margin="0,8,0,0"/>
+
+    </StackPanel>
+</controls:Window>

@@ -18,4 +18,11 @@
             <PrivateAssets Condition="'$(Configuration)' != 'Debug'">All</PrivateAssets>
         </PackageReference>
     </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Avalonia.Controls">
+        <HintPath>..\..\..\.nuget\packages\avalonia\11.3.9\ref\net8.0\Avalonia.Controls.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
 </Project>
